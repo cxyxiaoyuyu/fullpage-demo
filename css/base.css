@@ -25,40 +25,41 @@ header {
     width: 100%;
     z-index: 1;
 }
-.topBar {
+.topbar {
     margin: 0 68px;
     display: flex;
     height: 44px;
     justify-content: space-between;
     align-items: center;
 }
-.topBar .logo {
+.topbar .logo {
     cursor: pointer;
+    line-height: 44px;
 }
-.topBar .logo:hover {
+.topbar .logo:hover {
     color: #76a4d4;
 }
-.topBar .logo .fa{
+.topbar .logo .fa{
     font-size: 1.2em;
     padding-right: 3px;
 }
-.topBar .logo .systemName {
+.topbar .logo .systemName {
     font-size: 18px;
     line-height: 44px;
     padding-right: 20px;
 }
-.topBar .userInfo {
+.topbar .userInfo {
     display: flex;
     flex-direction: row;
 }
-.topBar .userInfo .username {
+.topbar .userInfo .username {
     padding-right: 4px;
 }
-.topBar .userInfo .signOut {
+.topbar .userInfo .signOut {
     padding-left: 4px;
     cursor: pointer;
 }
-.topBar .userInfo .signOut:hover {
+.topbar .userInfo .signOut:hover {
     color: #76a4d4; 
 }
 
