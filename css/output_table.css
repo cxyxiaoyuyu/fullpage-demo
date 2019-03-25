@@ -1,0 +1,21 @@
+.table-container table caption {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.table-container .table-wrap {
+    width: 95%;
+}
+.table-container table td {
+    /* white-space: nowrap; */
+    padding: 5px 5px;
+}
+td.achieved {
+    background: #f5f5a0;
+}
+td.exceeded {
+    background: #8be48b;
+}
+td.expected{
+    background: #f5869ae3;
+}

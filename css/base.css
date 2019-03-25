@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #70d7ca, #3eb2a8, #2e87ab, #458ba9, #4387b3, #397891, #3eb2a8, #70d7ca);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ol li {
+    list-style: none;
+}
+header {
+    height: 44px;
+    /* background-color: rgba(240, 240, 240, 0.9); */
+    background: #000;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+.topBar {
+    margin: 0 68px;
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topBar .logo {
+    cursor: pointer;
+}
+.topBar .logo:hover {
+    color: #76a4d4;
+}
+.topBar .logo .fa{
+    font-size: 1.2em;
+    padding-right: 3px;
+}
+.topBar .logo .systemName {
+    font-size: 18px;
+    line-height: 44px;
+    padding-right: 20px;
+}
+.topBar .userInfo {
+    display: flex;
+    flex-direction: row;
+}
+.topBar .userInfo .username {
+    padding-right: 4px;
+}
+.topBar .userInfo .signOut {
+    padding-left: 4px;
+    cursor: pointer;
+}
+.topBar .userInfo .signOut:hover {
+    color: #76a4d4; 
+}
+
